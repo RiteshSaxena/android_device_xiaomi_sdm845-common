@@ -126,6 +126,9 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # RIL
 TARGET_RIL_VARIANT := caf
 
+# SDCLANG
+TARGET_USE_SDCLANG := true
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 
