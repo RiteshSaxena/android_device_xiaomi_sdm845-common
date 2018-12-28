@@ -3,6 +3,11 @@
 }
 
 -keep class ** extends android.support.v14.preference.PreferenceFragment
+
+-keep class com.xiaomi.settings.dirac.* {
+  *;
+}
+
 -keep class com.xiaomi.settings.doze.* {
   *;
 }
