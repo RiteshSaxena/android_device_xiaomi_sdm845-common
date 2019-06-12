@@ -606,11 +606,10 @@ service vendor.dataadpl /system/vendor/bin/adpl
     group radio oem_2901 diag usb net_admin
 
 service vendor.sensors /vendor/bin/sscrpcd sensorspd
-    class core
+    class early_hal
     user system
     group system wakelock
     capabilities BLOCK_SUSPEND
-    disabled
 
 service vendor.sensors.qti /vendor/bin/sensors.qti
     class core
