@@ -94,6 +94,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbthost_if
 
+# Boost Framework
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
