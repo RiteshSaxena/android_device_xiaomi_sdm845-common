@@ -323,6 +323,19 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 
+# Factory - from dipper - QKQ1.190828.002
+product/lib/vendor.qti.hardware.factory@1.0.so
+product/lib/vendor.qti.hardware.factory@1.1.so
+product/lib64/vendor.qti.hardware.factory@1.0.so
+product/lib64/vendor.qti.hardware.factory@1.1.so
+product/framework/vendor.qti.hardware.factory-V1.1-java.jar
+product/framework/vendor.qti.hardware.factory-V1.0-java.jar
+vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
+vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc
+vendor/etc/permissions/vendor.qti.hardware.factory.xml
+vendor/lib64/vendor.qti.hardware.factory@1.0.so
+vendor/lib64/vendor.qti.hardware.factory@1.1.so
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
