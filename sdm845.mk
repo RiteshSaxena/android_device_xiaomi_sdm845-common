@@ -92,6 +92,11 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    Bluetooth \
+    BluetoothExt \
+    liba2dpoffload \
+    libbluetooth_qti \
+    libbtconfigstore \
     libbthost_if
 
 # Boost Framework
