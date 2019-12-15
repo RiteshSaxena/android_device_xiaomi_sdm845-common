@@ -21,7 +21,7 @@ vendor/lib/rfsa/adsp/libexternal_dog_skel.so
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 
-# Audio
+# Audio - from polaris - QKQ1.190828.002
 vendor/lib64/hw/audio.primary.sdm845.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbrtac.so
@@ -30,10 +30,9 @@ vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioparsers.so
-vendor/lib64/libaudioroute_ext.so|cc01f7a0548e335d9ef7db1970b99e4ad8184ffd
+vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libcsd-client.so
 vendor/lib64/libqtigef.so
-vendor/lib64/libtinycompress_vendor.so
 vendor/lib/hw/audio.primary.sdm845.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbrtac.so
@@ -43,12 +42,11 @@ vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioparsers.so
-vendor/lib/libaudioroute_ext.so|b0b8df2d9adde86399893d95b5fe83533c3f841c
+vendor/lib/libaudioroute_ext.so
 vendor/lib/libcsd-client.so
 vendor/lib/libqtigef.so
-vendor/lib/libtinycompress_vendor.so
 
-# Audio FX modules
+# Audio FX modules - from polaris - QKQ1.190828.002
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
 vendor/lib64/soundfx/libasphere.so
@@ -79,7 +77,7 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libbt-hidlclient.so
 
-# Bluetooth Audio - from dipper - QKQ1.190828.002
+# Bluetooth Audio - from polaris - QKQ1.190828.002
 product/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
 product/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 product/lib64/vendor.qti.hardware.btconfigstore@1.0.so
@@ -560,7 +558,7 @@ vendor/firmware/ipa_fws.mdt
 vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
 
-# Listen
+# Listen - from polaris - QKQ1.190828.002
 vendor/lib64/hw/sound_trigger.primary.sdm845.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
