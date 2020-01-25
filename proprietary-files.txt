@@ -1,15 +1,15 @@
-# ADSP
+# ADSP - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/adsprpcd
+vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsprpc.so
 
-# ADSP modules
+# ADSP modules - from beryllium - V11.0.4.0.QEJMIXM
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
-vendor/lib/rfsa/adsp/libSuperSensor_skel.so
 vendor/lib/rfsa/adsp/libVC1Dec.so
 vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
@@ -17,11 +17,10 @@ vendor/lib/rfsa/adsp/libdirac-capiv2.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so
 vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
-vendor/lib/rfsa/adsp/libexternal_dog_skel.so
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 
-# Audio - from polaris - QKQ1.190828.002
+# Audio - from beryllium - V11.0.4.0.QEJMIXM
 vendor/lib64/hw/audio.primary.sdm845.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbrtac.so
@@ -46,7 +45,7 @@ vendor/lib/libaudioroute_ext.so
 vendor/lib/libcsd-client.so
 vendor/lib/libqtigef.so
 
-# Audio FX modules - from polaris - QKQ1.190828.002
+# Audio FX modules - from beryllium - V11.0.4.0.QEJMIXM
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
 vendor/lib64/soundfx/libasphere.so
@@ -57,7 +56,6 @@ vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdirac.so
-vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
@@ -67,7 +65,7 @@ vendor/lib/soundfx/libshoebox.so
 lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# Bluetooth - from dipper - QKQ1.190828.002
+# Bluetooth - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
@@ -77,7 +75,7 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libbt-hidlclient.so
 
-# Bluetooth Audio - from polaris - QKQ1.190828.002
+# Bluetooth Audio - from beryllium - V11.0.4.0.QEJMIXM
 product/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
 product/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 product/lib64/vendor.qti.hardware.btconfigstore@1.0.so
@@ -88,6 +86,7 @@ vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
@@ -96,30 +95,35 @@ vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+vendor/lib/btaudio_offload_if.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
 
-# CDSP
+# CDSP - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/cdsprpcd
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
+vendor/lib64/libmdsprpc.so
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfastrpc_utf_stub.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsysmon_cdsp_skel.so
+vendor/lib/libmdsprpc.so
 
-# Charger
+# Charger - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hvdcp_opti
+vendor/bin/init.qti.chg_policy.sh
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
-# CNE - from dipper - QKQ1.190828.002
+# CNE - from beryllium - V11.0.4.0.QEJMIXM
 etc/cne/Nexus/ATT/ATT_profiles.xml
 etc/cne/Nexus/ROW/ROW_profiles.xml
 etc/cne/Nexus/VZW/VZW_profiles.xml
@@ -238,7 +242,7 @@ vendor/lib/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib/vendor.qti.latency@2.0.so
 
-# Configstore - from dipper - QKQ1.190828.002
+# Configstore - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
@@ -249,11 +253,11 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 -vendor/lib64/libplatformconfig.so
 
-# Display (HDR) - from dipper - QKQ1.190828.002
+# Display (HDR) - from beryllium - V11.0.4.0.QEJMIXM
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
-# Display (SDM) - from dipper - QKQ1.190828.002
+# Display (SDM) - from beryllium - V11.0.4.0.QEJMIXM
 vendor/lib/libqseed3.so
 vendor/lib/libsdedrm.so
 vendor/lib/libsdm-color.so
@@ -269,7 +273,7 @@ vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
-# Display postprocessing - from dipper - QKQ1.190828.002
+# Display postprocessing - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/mm-pp-dpps
 vendor/bin/ppd
@@ -287,13 +291,13 @@ vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# Display utils - from dipper - QKQ1.190828.002
+# Display utils - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# DPM - from dipper - QKQ1.190828.002
+# DPM - from beryllium - V11.0.4.0.QEJMIXM
 framework/tcmclient.jar
 product/bin/dpmd
 product/etc/dpm/dpm.conf
@@ -320,9 +324,10 @@ vendor/lib/libdpmqmihal.so
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
 
-# DRM
+# DRM - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/qseecomd
 vendor/bin/seemp_healthd
+vendor/etc/init/qseecomd.rc
 vendor/lib64/libcpion.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
@@ -354,7 +359,7 @@ vendor/lib/libssd.so
 vendor/lib/libStDrvInt.so
 vendor/lib/libtzdrmgenprov.so
 
-# ESE
+# ESE - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
 vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
@@ -362,12 +367,12 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
 vendor/lib/vendor.qti.esepowermanager@1.0.so
 
-# Fingerprint
+# Fingerprint - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 
-# Factory - from dipper - QKQ1.190828.002
+# Factory - from beryllium - V11.0.4.0.QEJMIXM
 product/lib/vendor.qti.hardware.factory@1.0.so
 product/lib/vendor.qti.hardware.factory@1.1.so
 product/lib64/vendor.qti.hardware.factory@1.0.so
@@ -380,13 +385,13 @@ vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.1.so
 
-# Gatekeeper - from dipper - QKQ1.190828.002
+# Gatekeeper - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
-# Graphics (Adreno) - from dipper - QKQ1.190828.002
+# Graphics (Adreno) - from beryllium - V11.0.4.0.QEJMIXM
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -426,7 +431,7 @@ vendor/lib64/libllvm-qcom.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 
-# Graphics (Adreno firmware) - from dipper - QKQ1.190828.002
+# Graphics (Adreno firmware) - from beryllium - V11.0.4.0.QEJMIXM
 vendor/firmware/a630_gmu.bin
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a630_zap.b00
@@ -435,11 +440,11 @@ vendor/firmware/a630_zap.b02
 vendor/firmware/a630_zap.elf
 vendor/firmware/a630_zap.mdt
 
-# Graphics (Vulkan) - from dipper - QKQ1.190828.002
+# Graphics (Vulkan) - from beryllium - V11.0.4.0.QEJMIXM
 vendor/lib/hw/vulkan.sdm845.so
 vendor/lib64/hw/vulkan.sdm845.so
 
-# IMS - from dipper - QKQ1.190828.002
+# IMS - from beryllium - V11.0.4.0.QEJMIXM
 lib/libdiag_system.so
 lib64/libdiag_system.so
 -product/app/uceShimService/uceShimService.apk
@@ -527,7 +532,7 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so
 
-# IO prefetcher - from dipper - QKQ1.190828.002
+# IO prefetcher - from beryllium - V11.0.4.0.QEJMIXM
 lib64/libqti-iopd-client_system.so
 lib/libqti-iopd-client_system.so
 product/lib64/vendor.qti.hardware.iop@2.0.so
@@ -545,7 +550,8 @@ vendor/lib/libqti-iopd.so
 vendor/lib/vendor.qti.hardware.iop@1.0.so
 vendor/lib/vendor.qti.hardware.iop@2.0.so
 
-# IPA firmware
+# IPA firmware - from beryllium - V11.0.4.0.QEJMIXM
+vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.b02
@@ -554,11 +560,11 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# IRQ balance
+# IRQ balance - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
 
-# Listen - from polaris - QKQ1.190828.002
+# Listen - from beryllium - V11.0.4.0.QEJMIXM
 vendor/lib64/hw/sound_trigger.primary.sdm845.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
@@ -569,6 +575,7 @@ vendor/lib64/libgcs.so
 vendor/lib64/liblistenjni.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
+vendor/lib/libjnihelper.so
 vendor/lib/hw/sound_trigger.primary.sdm845.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so
@@ -581,8 +588,18 @@ vendor/lib/libsmwrapper.so
 vendor/lib/liblistenjni.so
 vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
+vendor/lib/libjnihelper.so
 
-# Media - from dipper - QKQ1.190828.002
+# Mirrorlink - from beryllium - V11.0.4.0.QEJMIXM
+vendor/bin/hw/vendor.qti.hardware.mlshal@1.0-service
+vendor/etc/init/vendor.qti.hardware.mlshal@1.0-service.rc
+vendor/lib64/hw/vendor.qti.hardware.mlshal@1.0-impl.so
+vendor/lib64/libmls_utils_vendor.so
+vendor/lib64/libmls_v4l2enc_vendor.so
+vendor/lib64/vendor.qti.hardware.mlshal@1.0-halimpl.so
+vendor/lib64/vendor.qti.hardware.mlshal@1.0.so
+
+# Media - from beryllium - V11.0.4.0.QEJMIXM
 lib/libFileMux.so
 lib/libOmxMux.so
 lib/libmmosal.so
@@ -626,7 +643,7 @@ vendor/lib64/libvpplibrary.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 
-# Media codecs - from dipper - QKQ1.190828.002
+# Media codecs - from beryllium - V11.0.4.0.QEJMIXM
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
@@ -662,7 +679,7 @@ vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxWmaDec.so
 
-# Mlipay
+# Mlipay - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/mlipayd@1.1
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 vendor/lib64/libmlipay.so
@@ -671,22 +688,24 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 
-# Neural networks
-vendor/etc/init/android.hardware.neuralnetworks@1.1-service-qti.rc
-vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-qti
-vendor/lib64/libhexagon_nn_stub.so
+# Neural networks - from beryllium - V11.0.4.0.QEJMIXM
+vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
+vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib64/libhexagon_nn_stub.so
+vendor/lib64/unnhal-acc-adreno.so
+vendor/lib64/unnhal-acc-common.so
+vendor/lib64/unnhal-acc-hvx.so
 
-# Peripheral manager
+# Peripheral manager - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/pm-proxy
 vendor/bin/pm-service
-vendor/bin/spdaemon|9921cb33d021fb5e7b2c89512bbc00346d6b8559
-vendor/lib64/libperipheral_client.so
-vendor/lib64/libspcom.so|f840d243517c9d837e1fd34f05458310d312983c
 vendor/lib/libperipheral_client.so
-vendor/lib/libspcom.so|23ec643a462306d18b154ce305dbb3daf3665722
+vendor/lib/libspcom.so
+vendor/lib64/libperipheral_client.so
+vendor/lib64/libspcom.so
 
-# Perf - from dipper - QKQ1.190828.002
+# Perf - from beryllium - V11.0.4.0.QEJMIXM
 bin/perfservice
 etc/init/perfservice.rc
 -framework/QPerformance.jar
@@ -730,7 +749,7 @@ vendor/lib64/libqti-util.so
 vendor/lib64/libqti-utils.so
 vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
-# Power-off alarm - from dipper - QKQ1.190828.002
+# Power-off alarm - from beryllium - V11.0.4.0.QEJMIXM
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
@@ -741,7 +760,7 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 # Power-off charging daemon
 -sbin/charger:bin/chargeonlymode|f048d2cc20783ba1a608b73d440b3053af6ec9fd
 
-# QMI - from dipper - QKQ1.190828.002
+# QMI - from beryllium - V11.0.4.0.QEJMIXM
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
@@ -781,7 +800,11 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqminvapi.so
 vendor/lib/libqmiservices.so
 
-# RIL  - from dipper - QKQ1.190828.002
+# QTI - from beryllium - V11.0.4.0.QEJMIXM
+vendor/lib/libqti_vndfwk_detect.so
+vendor/lib64/libqti_vndfwk_detect.so
+
+# RIL - from beryllium - V11.0.4.0.QEJMIXM
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
 product/etc/permissions/qcrilhook.xml
@@ -876,7 +899,7 @@ vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 
-# Sensors
+# Sensors - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
@@ -889,6 +912,7 @@ vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssccalapi.so
 vendor/lib64/libsns_device_mode_stub.so
+vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
@@ -899,11 +923,12 @@ vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/libssccalapi.so
 vendor/lib/libsns_device_mode_stub.so
+vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsnsdiaglog.so
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Snapdragon Computer Vision Engine
+# Snapdragon Computer Vision Engine - from beryllium - V11.0.4.0.QEJMIXM
 vendor/etc/scve/facereco/gModel.dat
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libfastcvdsp_stub.so
@@ -937,30 +962,30 @@ vendor/lib/libscvePanorama.so
 vendor/lib/libscvePanorama_lite.so
 vendor/lib/libscveScan3D.so
 
-# Soter
--app/SoterService/SoterService.apk
+# Soter - from beryllium - V11.0.4.0.QEJMIXM
+-vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# SSR
+# SSR - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
 
-# Thermal engine - from dipper - QKQ1.190828.002
+# Thermal engine - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/thermal-engine
 vendor/lib64/libthermalclient.so
 vendor/lib/libthermalclient.so
 
-# Time services - from dipper - QKQ1.190828.002
+# Time services - from beryllium - V11.0.4.0.QEJMIXM
 -vendor/app/TimeService/TimeService.apk;PRESIGNED
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 vendor/lib/libtime_genoff.so
 
-# Trusted Execution Environment connector
+# Trusted Execution Environment connector - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
@@ -974,24 +999,24 @@ vendor/lib/libGPTEE_vendor.so
 vendor/lib/libQTEEConnector_vendor.so
 vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
 
-# Trusted User Interface
+# Trusted User Interface - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 
-# Widevine DRM - from dipper - QKQ1.190828.002
+# Widevine DRM - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
-# WiFi
+# WiFi - from beryllium - V11.0.4.0.QEJMIXM
 vendor/bin/cnss-daemon
 vendor/bin/nv_mac
 
-# WiFi Display - from dipper - QKQ1.190828.002
+# WiFi Display - from beryllium - V11.0.4.0.QEJMIXM
 bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfigsink.xml
