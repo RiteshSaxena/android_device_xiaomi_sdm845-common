@@ -103,7 +103,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     Bluetooth \
     BluetoothExt \
-    liba2dpoffload \
     libbluetooth_qti \
     libbtconfigstore \
     libbthost_if
