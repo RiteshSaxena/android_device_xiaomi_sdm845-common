@@ -480,6 +480,8 @@ product/lib/lib-imsvideocodec.so
 product/lib/lib-imsvt.so
 product/lib/lib-imsvtextutils.so
 product/lib/lib-imsvtutils.so
+product/lib/vendor.qti.imsrtpservice@2.0.so
+product/lib/vendor.qti.imsrtpservice@2.1.so
 product/lib64/com.qualcomm.qti.imscmservice@1.0.so
 product/lib64/com.qualcomm.qti.imscmservice@2.0.so
 product/lib64/com.qualcomm.qti.imscmservice@2.1.so
@@ -492,6 +494,8 @@ product/lib64/lib-imsvideocodec.so
 product/lib64/lib-imsvt.so
 product/lib64/lib-imsvtextutils.so
 product/lib64/lib-imsvtutils.so
+product/lib64/vendor.qti.imsrtpservice@2.0.so
+product/lib64/vendor.qti.imsrtpservice@2.1.so
 -product/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
@@ -589,7 +593,7 @@ vendor/lib64/libgcs.so
 vendor/lib64/liblistenjni.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
-vendor/lib/libjnihelper.so
+vendor/lib64/libjnihelper.so
 vendor/lib/hw/sound_trigger.primary.sdm845.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so
