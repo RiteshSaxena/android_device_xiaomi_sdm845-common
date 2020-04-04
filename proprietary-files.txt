@@ -608,15 +608,6 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libjnihelper.so
 
-# Mirrorlink - from beryllium - V11.0.4.0.QEJMIXM
-vendor/bin/hw/vendor.qti.hardware.mlshal@1.0-service
-vendor/etc/init/vendor.qti.hardware.mlshal@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.mlshal@1.0-impl.so
-vendor/lib64/libmls_utils_vendor.so
-vendor/lib64/libmls_v4l2enc_vendor.so
-vendor/lib64/vendor.qti.hardware.mlshal@1.0-halimpl.so
-vendor/lib64/vendor.qti.hardware.mlshal@1.0.so
-
 # Media - from beryllium - V11.0.4.0.QEJMIXM
 lib/libFileMux.so
 lib/libOmxMux.so
