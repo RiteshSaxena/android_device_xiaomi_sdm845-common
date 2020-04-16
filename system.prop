@@ -2,9 +2,17 @@
 audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
 audio.offload.video=true
+audio.sys.noisy.broadcast.delay=600
+audio.sys.offload.pstimeout.secs=3
+persist.audio.fluence.speaker=true
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicecomm=true
+persist.audio.fluence.voicerec=false
 ro.af.client_heap_size_kbyte=7168
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=11
+ro.qc.sdk.audio.fluencetype=none
+ro.qc.sdk.audio.ssr=false
 
 # Bluetooth
 vendor.bluetooth.soc=cherokee
@@ -57,6 +65,10 @@ sdm.debug.disable_inline_rotator_secure=1
 
 # IMS
 persist.vendor.ims.disableUserAgent=0
+
+# Listen
+ro.audio.soundtrigger=sva
+ro.audio.soundtrigger.lowpower=true
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml

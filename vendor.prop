@@ -1,11 +1,5 @@
 # Audio
 af.fast_track_multiplier=1
-audio.sys.noisy.broadcast.delay=600
-audio.sys.offload.pstimeout.secs=3
-persist.audio.fluence.speaker=true
-persist.audio.fluence.voicecall=true
-persist.audio.fluence.voicecomm=true
-persist.audio.fluence.voicerec=false
 persist.vendor.audio.button_jack.profile=volume
 persist.vendor.audio.button_jack.switch=0
 persist.vendor.audio.fluence.speaker=true
@@ -13,8 +7,6 @@ persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicecomm=true
 persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.ras.enabled=false
-ro.qc.sdk.audio.fluencetype=none
-ro.qc.sdk.audio.ssr=false
 ro.vendor.audio.sdk.fluencetype=fluence
 ro.vendor.audio.sdk.ssr=false
 ro.vendor.audio.soundfx.usb=true
@@ -117,8 +109,6 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
 # Listen
-ro.audio.soundtrigger=sva
-ro.audio.soundtrigger.lowpower=true
 ro.vendor.audio.soundtrigger=sva
 ro.vendor.audio.soundtrigger.lowpower=true
 ro.vendor.audio.soundtrigger.20.key.level=40
