@@ -217,6 +217,7 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
+    libmediaplayerservice \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
